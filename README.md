@@ -80,7 +80,7 @@ The system provides a simple, clean, and interactive dashboard designed to promo
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** Django (Python)
 - **Frontend:** HTML5, CSS3, Bootstrap 5
