@@ -39,39 +39,44 @@ The system provides a simple, clean, and interactive dashboard designed to promo
 
 ### Sign Up Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/b3609b21-7e3d-45a8-97b8-ba3621eea01b" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/9bebb08c-35e9-4c0d-a237-d031890711f1" />
+
 
 ### Login Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/59ab8037-b8c5-49c4-a435-cc0172b7cb76" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/4f4fee83-d9fa-49b1-90cc-bbca0458a24a" />
 
 ### Dashboard Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/d08816bd-69e2-419e-92aa-15828e86a342" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/75993ff3-aee4-476c-9dae-75d12e3aaa8c" />
 
 ### Income List Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/e24b667c-b96c-4b77-b165-7a8d3feaf4c2" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/292366fa-b6a7-4dbe-a417-42cd9344d4b9" />
 
 ### Add Income Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/c97ac6e8-50e2-460e-9731-0b3ddeb5114c" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/352c4bcf-cb84-4fe6-81ba-3c721743a861" />
 
 ### Expense list Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/95d8a5c4-a628-4841-b066-3c3f7bf45dc6" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/ea274264-4069-4f4e-ad3a-5e5862e50251" />
 
 ### Add Expense Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/a3df5f72-c229-492e-9508-860c300c5d03" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/dbe556ea-cb9c-4d5b-b8d2-b29a28694100" />
 
 ### Category List Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/9ad7518b-10da-49fb-9583-45ebab9e15ba" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/49ee615f-5c8e-4299-96cc-852cd7417799" />
 
 ### Add category Page
 
-<img width="1866" height="964" alt="Image" src="https://github.com/user-attachments/assets/6e60f967-f9ec-43e1-a833-74df5e147d72" />
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/45ee5d28-af5b-4e48-b02c-9a676f17bedd" />
+
+### Reset page
+
+<img width="1867" height="964" alt="Image" src="https://github.com/user-attachments/assets/f5e19ba4-0d9f-458a-80a6-d5cd7f16e6f7" />
 
 ---
 
@@ -122,21 +127,21 @@ CREATE database my_database_name;
         - 'HOST': .....,
         - 'PORT': .....,
 ## Create .env file
-```
-ALLOWED_HOSTS=127.0.0.1,localhost
-DB_NAME=your-database-name
-DB_USER=your-userdb
-DB_PASSWORD=your-bd-password
-DB_HOST=localhost
-DB_PORT=5432
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_HOST_USER=your-email@gmail.com
-EMAIL_HOST_PASSWORD=your-app-specific-password
-EMAIL_HOST_USER=johndoe@gmail.com
-EMAIL_HOST_PASSWORD=your-app-password
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-```
+ ```
+ ALLOWED_HOSTS=127.0.0.1,localhost
+ DB_NAME=your-database-name
+ DB_USER=your-userdb
+ DB_PASSWORD=your-bd-password
+ DB_HOST=localhost
+ DB_PORT=5432
+ EMAIL_HOST=smtp.gmail.com
+ EMAIL_PORT=587
+ EMAIL_HOST_USER=your-email@gmail.com
+ EMAIL_HOST_PASSWORD=your-app-specific-password
+ EMAIL_HOST_USER=johndoe@gmail.com
+ EMAIL_HOST_PASSWORD=your-app-password
+ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+ ```
 
 ## Run migrations
 ```
